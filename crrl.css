@@ -1,0 +1,120 @@
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+}
+
+.topicos {
+    text-align: justify;
+    margin-right: 80px;
+}
+
+header {
+    background-color: rgb(151, 108, 58);
+    height: 180px;
+    
+}
+
+header h1 {
+    text-align: center;
+    padding: 50px;
+    font-family: "Baskervville SC", serif;
+}
+
+header ul li {
+    list-style-type: none;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 200px;
+    font-family: "Raleway", sans-serif;
+}
+
+.topicos {
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family: "Raleway", sans-serif;
+}
+
+.perfil h1 {
+    margin-bottom: 15px;
+}
+
+.perfil {
+    margin-bottom: 50px;
+}
+
+.habilidades h1 {
+    margin-bottom: 15px;
+}
+
+.habilidades {
+    margin-bottom: 50px;
+}
+
+.experiencia h1 {
+    margin-bottom: 15px;
+}
+
+.experiencia {
+    margin-bottom: 50px;
+}
+
+.cursos h1 {
+    margin-bottom: 15px;
+}
+
+.cursos {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1000px) {
+
+    .perfil p {
+        background-color: rgb(206, 165, 119) 
+    }
+
+    .habilidades p {
+        background-color: rgb(206, 165, 119)
+    }
+
+    .experiencia p {
+        background-color: rgb(206, 165, 119)
+    }
+
+    .cursos p {
+        background-color: rgb(206, 165, 119)
+    }
+}
+
+@media (max-width: 750px) {
+
+    header ul li {
+        list-style-type: none;
+        justify-content: center;
+        display: inline-block;
+        margin-left: 50px;
+        font-family: "Raleway", sans-serif;
+    }    
+
+@media (max-width: 500px) {
+
+    header ul li {
+        list-style-type: none;
+        justify-content: center;
+        display: inline-block;
+        margin-left: 60px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        font-family: "Raleway", sans-serif;
+    }  
